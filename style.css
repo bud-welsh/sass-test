@@ -7,4 +7,16 @@ header {
       -ms-flex-pack: center;
           justify-content: center;
 }
+
+header button {
+  background: #b628b6;
+}
+
+header button:hover {
+  background: green;
+}
+
+.contact button {
+  background: #b628b6;
+}
 /*# sourceMappingURL=style.css.map */
