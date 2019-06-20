@@ -1,9 +1,14 @@
 $primaryBtn : rgb(182, 40, 182);
 
-header{
-  background: lightblue;
+@mixin flexCenter {
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+header{
+  @include flexCenter();
+  background: lightblue;
   button{
     background: $primaryBtn;
     &:hover{
